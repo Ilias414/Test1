@@ -1,0 +1,18 @@
+from tkinter import *
+
+from setuptools import Command
+ 
+root = Tk()
+root.title("bayer")
+root.geometry("600x600")
+
+l = Label(root, text="Click to know who is made in germany :")
+l.pack()
+def Bunton ():
+    g = Label(root, text="Bayer munchin")
+    g.pack()
+    
+
+b = Button(root, text="Made in germany",command=Bunton)
+b.pack()
+root.mainloop()
